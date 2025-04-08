@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RussiaSimply/static/css/main.3da75c6d.css",
-    "main.js": "/RussiaSimply/static/js/main.0732af3d.js",
+    "main.js": "/RussiaSimply/static/js/main.e69605b8.js",
     "static/js/453.486c443d.chunk.js": "/RussiaSimply/static/js/453.486c443d.chunk.js",
     "static/media/back.png": "/RussiaSimply/static/media/back.c96b105305fc537b843a.png",
     "static/media/sprite.png": "/RussiaSimply/static/media/sprite.f5cf6fb4ef68fd07c87a.png",
@@ -10,11 +10,11 @@
     "static/media/translate.png": "/RussiaSimply/static/media/translate.d742b21307eb3af819f8.png",
     "index.html": "/RussiaSimply/index.html",
     "main.3da75c6d.css.map": "/RussiaSimply/static/css/main.3da75c6d.css.map",
-    "main.0732af3d.js.map": "/RussiaSimply/static/js/main.0732af3d.js.map",
+    "main.e69605b8.js.map": "/RussiaSimply/static/js/main.e69605b8.js.map",
     "453.486c443d.chunk.js.map": "/RussiaSimply/static/js/453.486c443d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3da75c6d.css",
-    "static/js/main.0732af3d.js"
+    "static/js/main.e69605b8.js"
   ]
 }
