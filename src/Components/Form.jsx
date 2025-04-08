@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div>
+        <div id="formix">
             <div className="form-container">
                 <div className="info-icon">
                     ?
