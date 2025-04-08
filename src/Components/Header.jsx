@@ -15,9 +15,9 @@ const Header = () => {
 
                 <div className="wrap__nav__items">
                     <a className={"nav__item"} href="https://xenozpon.github.io/RussiaSimply/">Главная</a>
-                    <a className={"nav__item"} href="https://xenozpon.github.io/RussiaSimply/#management">Как пользоваться сайтом</a>
-                    <a className={"nav__item"} href="https://xenozpon.github.io/RussiaSimply/#HELPBAR">Консультационный блок</a>
-                    <a className={"nav__item"} href="https://xenozpon.github.io/RussiaSimply/#formix">Предложить свой кейс</a>
+                    <a className={"nav__item"} href="RussiaSimply/#management">Как пользоваться сайтом</a>
+                    <a className={"nav__item"} href="RussiaSimply/#HELPBAR">Консультационный блок</a>
+                    <a className={"nav__item"} href="RussiaSimply/#formix">Предложить свой кейс</a>
                     <a className={"nav__item"} href="https://t.me/s1mplerussia_bot">Нейросеть</a>
                 </div>
 
