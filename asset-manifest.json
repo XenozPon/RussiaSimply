@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RussiaSimply/static/css/main.3da75c6d.css",
-    "main.js": "/RussiaSimply/static/js/main.6cd56373.js",
+    "main.css": "/RussiaSimply/static/css/main.5b1af8f0.css",
+    "main.js": "/RussiaSimply/static/js/main.4dd08410.js",
     "static/js/453.486c443d.chunk.js": "/RussiaSimply/static/js/453.486c443d.chunk.js",
     "static/media/back.png": "/RussiaSimply/static/media/back.c96b105305fc537b843a.png",
     "static/media/sprite.png": "/RussiaSimply/static/media/sprite.f5cf6fb4ef68fd07c87a.png",
@@ -9,12 +9,12 @@
     "static/media/icon.png": "/RussiaSimply/static/media/icon.7dfcbe979e8b26446aca.png",
     "static/media/translate.png": "/RussiaSimply/static/media/translate.d742b21307eb3af819f8.png",
     "index.html": "/RussiaSimply/index.html",
-    "main.3da75c6d.css.map": "/RussiaSimply/static/css/main.3da75c6d.css.map",
-    "main.6cd56373.js.map": "/RussiaSimply/static/js/main.6cd56373.js.map",
+    "main.5b1af8f0.css.map": "/RussiaSimply/static/css/main.5b1af8f0.css.map",
+    "main.4dd08410.js.map": "/RussiaSimply/static/js/main.4dd08410.js.map",
     "453.486c443d.chunk.js.map": "/RussiaSimply/static/js/453.486c443d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3da75c6d.css",
-    "static/js/main.6cd56373.js"
+    "static/css/main.5b1af8f0.css",
+    "static/js/main.4dd08410.js"
   ]
 }
