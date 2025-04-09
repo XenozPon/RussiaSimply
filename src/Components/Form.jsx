@@ -1,6 +1,22 @@
 import React from 'react';
-
+import emailjs from 'emailjs-com';
 const Form = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+
+        emailjs.sendForm('sr_1121', 'template_gc45bm8', e.target, 'P13ou8777pqiJaGjJ')
+            .then((result) => {
+                alert("Форма отправлена, сайт перезагружен");
+                window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
+
+
+
     return (
         <div id="formix">
             <div className="form-container">
@@ -13,7 +29,7 @@ const Form = () => {
 
                 <h2>Форма обратной связи</h2>
 
-                <form>
+                <form  onSubmit={sendEmail}>
                     <div className="form-group">
                         <label htmlFor="case-title">Название кейса</label>
                         <input type="text" id="case-title" name="case-title" required/>
@@ -29,7 +45,9 @@ const Form = () => {
                         <input type="email" id="email" name="email" required/>
                     </div>
 
-                    <button type="submit">Отправить</button>
+                    <button type="submit" name="submit" className="submit send-form btn"
+                    > Отправить форму
+                    </button>
                 </form>
             </div>
         </div>

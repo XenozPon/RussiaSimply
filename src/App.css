@@ -164,6 +164,8 @@ hr{
   position: absolute;
   width: 1508px;
   height: 1080px;
+  overflow: hidden;
+  max-width: 100%;
 
 
 }
@@ -220,7 +222,7 @@ overflow: hidden  ;
   height: 160vh;
   color: #f4f4f4;
   background: #232323;
-  border-radius: 25px;
+  border-radius: 5px;
 
 }
 
